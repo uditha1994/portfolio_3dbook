@@ -12,7 +12,7 @@
 <body>
     <div class="wrapper">
         <div class="cover cover-left"></div>
-        <div class="cover cover-right turn"></div>
+        <div class="cover cover-right"></div>
 
         <div class="book">
             <!-- profile page -->
@@ -42,7 +42,7 @@
             </div>
 
             <!-- page 1&2 -->
-            <div class="book-page page-right" id="turn-1">
+            <div class="book-page page-right turn" id="turn-1">
                 <!-- 1-work experience page -->
                 <div class="page-front">
                     <h1 class="title">Work Experience</h1>
@@ -203,7 +203,7 @@
             </div>
 
             <!-- page 5&6 -->
-            <div class="book-page page-right" id="turn-3">
+            <div class="book-page page-right turn" id="turn-3">
                 <!-- 5-latest projects -->
                 <div class="page-front">
                     <h1 class="title">Latest Projects</h1>
@@ -239,6 +239,27 @@
                 <!-- 6-contact me -->
                 <div class="page-back">
                     <h1 class="title">Contact Me</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" name="" id="" placeholder="Full Name" required>
+                            <input type="email" class="field" name="" id="" placeholder="Email" required>
+                            <textarea name="" id="" cols="30" rows="8" class="field" placeholder="Your Message"
+                                required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+                    <span class="number-page">06</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bxs-chevrons-left'></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user-detail'></i>
+                    </a>
                 </div>
             </div>
 
